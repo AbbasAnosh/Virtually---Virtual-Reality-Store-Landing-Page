@@ -19,7 +19,13 @@ const Headsets = () => {
           >
             Various Kinds of VR <br /> Variants That We Offer
           </h2>
-          <button className="btn">See All</button>
+          <button
+            className="hidden lg:btn"
+            data-aos="fade-down"
+            data-aos-offset="300"
+          >
+            See All
+          </button>
         </div>
         <div className="grid gap-y-4 lg:grid-cols-2 lg:gap-9">
           <div
