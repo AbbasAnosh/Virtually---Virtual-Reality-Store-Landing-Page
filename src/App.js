@@ -11,6 +11,7 @@ import Explore from "./components/Explore.js";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Works from "./components/Works.js";
+import Team from "./components/Team.js";
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -37,6 +38,7 @@ const App = () => {
       <Headsets />
       <Works />
       <Testimonial />
+      <Team />
       <Explore />
     </div>
   );
