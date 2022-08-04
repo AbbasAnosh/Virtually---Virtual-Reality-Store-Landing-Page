@@ -12,6 +12,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Works from "./components/Works.js";
 import Team from "./components/Team.js";
+import Question from "./components/Question.js";
+import Footer from "./components/Footer.js";
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -39,7 +41,9 @@ const App = () => {
       <Works />
       <Testimonial />
       <Team />
-      <Explore />
+      <Question />
+      <Footer />
+      {/* <Explore /> */}
     </div>
   );
 };

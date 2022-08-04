@@ -1,8 +1,8 @@
 import React from "react";
-import Img1 from "../assets/img2/team1.jpg";
-import Img2 from "../assets/img2/team2.jpg";
-import Img3 from "../assets/img2/team3.jpg";
-import Img4 from "../assets/img2/team4.jpg";
+import Img1 from "../assets/img2/Team1.jpg";
+import Img2 from "../assets/img2/Team2.jpg";
+import Img3 from "../assets/img2/Team3.jpg";
+import Img4 from "../assets/img2/Team4.jpg";
 
 import {
   AiFillInstagram,
@@ -17,12 +17,31 @@ const Team = () => {
     <section>
       <div className="container mx-auto mb-20">
         <div className="flex justify-between mb-16">
-          <h1 className="text-3xl font-bold">Our Team</h1>
-          <p className="hidden lg:flex">
+          <h1
+            className="text-3xl font-bold"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            delay="1800"
+          >
+            Our Team
+          </h1>
+          <p
+            className="hidden lg:flex"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            delay="1800"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />{" "}
             Placeat, voluptatum?
           </p>
-          <button className="btn">See All</button>
+          <button
+            className="btn"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            delay="1800"
+          >
+            See All
+          </button>
         </div>
         <div className="">
           <div className="grid lg:grid-cols-4 gap-4 md:grid-cols-2">
@@ -33,7 +52,7 @@ const Team = () => {
               data-aos-offset="400"
             >
               <img src={Img1} alt="" className="rounded-lg" />
-              <div className="absolute items-center justify-center flex flex-col bottom-0 pl-[76px] pr-[76px] bg-[#314D81]/40 backdrop-blure max-w-[300px] min-h-[100px]">
+              <div className="absolute rounded-bl-lg rounded-br-lg items-center justify-center flex flex-col bottom-0 pl-[76px] pr-[76px] bg-[#314D81]/40 backdrop-blure max-w-[300px] min-h-[100px]">
                 <h3 className="mb-2 text-lg">Esther Howard</h3>
                 <div className="flex space-x-5 mb-2 text-lg">
                   <AiFillInstagram />
@@ -49,7 +68,7 @@ const Team = () => {
 
             <div className="self-end relative" data-aos="fade-up">
               <img src={Img2} alt="" className="rounded-lg" />
-              <div className="absolute items-center justify-center flex flex-col bottom-0 pl-[76px] pr-[76px] pt-5 bg-[#314D81]/40 backdrop-blure max-w-[300px] min-h-[100px]">
+              <div className="absolute rounded-bl-lg rounded-br-lg items-center justify-center flex flex-col bottom-0 pl-[76px] pr-[76px] pt-5 bg-[#314D81]/40 backdrop-blure max-w-[300px] min-h-[100px]">
                 <h3 className="mb-2 text-lg">Jacob Jones</h3>
                 <div className="flex space-x-5 mb-2 text-lg">
                   <AiFillInstagram />
@@ -69,7 +88,7 @@ const Team = () => {
               data-aos-offset="400"
             >
               <img src={Img3} alt="" className="rounded-lg" />
-              <div className="absolute items-center justify-center flex flex-col bottom-0 pl-[76px] pr-[76px] pt-5 bg-[#314D81]/40 backdrop-blure max-w-[300px] min-h-[100px]">
+              <div className="absolute rounded-bl-lg rounded-br-lg items-center justify-center flex flex-col bottom-0 pl-[76px] pr-[76px] pt-5 bg-[#314D81]/40 backdrop-blure max-w-[300px] min-h-[100px]">
                 <h3 className="mb-2 text-lg">Guy Hawkins</h3>
                 <div className="flex space-x-5 mb-2 text-lg">
                   <AiFillInstagram />
@@ -85,7 +104,7 @@ const Team = () => {
 
             <div className="self-end relative" data-aos="fade-up">
               <img src={Img4} alt="" className="rounded-lg" />
-              <div className="absolute items-center justify-center flex flex-col bottom-0 pl-[76px] pr-[76px] pt-5 bg-[#314D81]/40 backdrop-blure max-w-[300px] min-h-[100px]">
+              <div className="absolute rounded-bl-lg rounded-br-lg items-center justify-center flex flex-col bottom-0 pl-[76px] pr-[76px] pt-5 bg-[#314D81]/40 backdrop-blure max-w-[300px] min-h-[100px]">
                 <h3 className="mb-2 text-lg">Albert Flores</h3>
                 <div className="flex space-x-5 mb-2 text-lg">
                   <AiFillInstagram />

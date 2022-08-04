@@ -2,10 +2,15 @@ import React from "react";
 
 import Users from "./Users";
 
-import Headset1 from "../assets/img/headset-1.png";
-import Headset2 from "../assets/img/headset-2.png";
-import Headset3 from "../assets/img/headset-3.png";
-import Headset4 from "../assets/img/headset-4.png";
+// import Headset1 from "../assets/img/headset-1.png";
+// import Headset2 from "../assets/img/headset-2.png";
+// import Headset3 from "../assets/img/headset-3.png";
+// import Headset4 from "../assets/img/headset-4.png";
+
+import Port1 from "../assets/img2/port-1.jpeg";
+import Port2 from "../assets/img2/port-2.jpeg";
+import Port3 from "../assets/img2/port-3.jpeg";
+import Port4 from "../assets/img2/port4.jpeg";
 
 const Headsets = () => {
   return (
@@ -34,7 +39,7 @@ const Headsets = () => {
             data-aos-offset="300"
             data-aos-delay="1000"
           >
-            <img src={Headset1} alt="" />
+            <img src={Port1} alt="" className="rounded-lg" />
             <div className="absolute flex justify-between bottom-0 bg-white/20 backdrop-blure max-w-[400px] min-h-[150px] p-6">
               <div>
                 <div className="mb-7">
@@ -54,7 +59,7 @@ const Headsets = () => {
             data-aos-offset="300"
             data-aos-delay="1300"
           >
-            <img src={Headset2} alt="" />
+            <img src={Port2} alt="" className="rounded-lg" />
             <div className="absolute flex justify-between bottom-0 bg-white/20 backdrop-blure max-w-[400px] min-h-[150px] p-6">
               <div>
                 <div className="mb-7">
@@ -75,7 +80,7 @@ const Headsets = () => {
             data-aos-offset="300"
             data-aos-delay="1600"
           >
-            <img src={Headset3} alt="" />
+            <img src={Port3} alt="" className="rounded-lg" />
             <div className="absolute flex justify-between bottom-0 bg-white/20 backdrop-blure max-w-[400px] min-h-[150px] p-6">
               <div>
                 <div className="mb-7">
@@ -96,7 +101,7 @@ const Headsets = () => {
             data-aos-offset="300"
             data-aos-delay="1900"
           >
-            <img src={Headset4} alt="" />
+            <img src={Port4} alt="" className="rounded-lg" />
             <div className="absolute flex justify-between bottom-0 bg-white/20 backdrop-blure max-w-[400px] min-h-[150px] p-6">
               <div>
                 <div className="mb-7">
