@@ -1,7 +1,6 @@
 import React from "react";
 
 // import components
-import Logo from "../assets/img/logo.svg";
 import Nav from "./Nav";
 
 import { HiMenu } from "react-icons/hi";
