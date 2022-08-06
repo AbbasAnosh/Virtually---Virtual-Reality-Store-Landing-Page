@@ -16,7 +16,7 @@ const Experience = () => {
             <div
               className="self-start relative"
               data-aos="fade-down"
-              data-aos-offset="400"
+              data-aos-delay="400"
             >
               <img src={Img1} alt="" className="rounded-lg" />
               <div className="absolute bottom-0 p-2 bg-white/20 backdrop-blure rounded-b-lg max-w-[300px] min-h-[100px]">
@@ -28,7 +28,11 @@ const Experience = () => {
                 </p>
               </div>
             </div>
-            <div className="self-end relative" data-aos="fade-up">
+            <div
+              className="self-end relative"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
               <img src={Img2} alt="" className="rounded-lg" />
               <div className="absolute bottom-0 p-2 bg-white/20 backdrop-blure rounded-b-lg max-w-[300px] min-h-[100px]">
                 <RiGamepadLine className="text-4xl mb-4" />
@@ -44,7 +48,7 @@ const Experience = () => {
           <div
             className="flex-1 flex flex-col items-start justify-center mt-6 lg:mt-0"
             data-aos="fade-left"
-            data-aos-offset="400"
+            data-aos-delay="400"
           >
             <h2 className="text-3xl font-bold mb-6">
               The Advantages of <br /> Our VR That We <br /> Offer So Far
