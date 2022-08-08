@@ -5,7 +5,10 @@ import {
 } from "react-icons/md";
 
 const Question = () => {
-  const [arrow, setArrow] = useState(false);
+  const [isShown, setIsShown] = useState(false);
+  const handleClick = () => {
+    setIsShown(true);
+  };
 
   return (
     <section className="mb-20">
@@ -19,17 +22,29 @@ const Question = () => {
           </div>
 
           <div data-aos="fade-up" data-aos-offset="300" data-aos-delay="2000">
-            <div className="border-b mb-6">
+            <div className="border-b mb-6 ">
               <h3 className="text-xl flex items-center">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                <MdOutlineKeyboardArrowUp className="text-2xl cursor-pointer" />
               </h3>
-
-              <p className="text-[#7C7C7C] mb-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur repudiandae accusamus aut voluptatibus expedita eius
-                dolore iure optio animi dicta?
-              </p>
+              <div className="">
+                <MdOutlineKeyboardArrowUp
+                  onClick={handleClick}
+                  className="text-2xl cursor-pointer lg:ml-[600px] lg:mt-[-25px]"
+                />
+                {isShown && (
+                  <div className="">
+                    <MdOutlineKeyboardArrowDown
+                      onClick={() => setIsShown(false)}
+                      className="text-2xl cursor-pointer lg:ml-[600px] lg:mt-[-25px]"
+                    />
+                    <p className="text-[#7C7C7C] mb-2">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur repudiandae accusamus aut voluptatibus expedita
+                      eius dolore iure optio animi dicta?
+                    </p>
+                  </div>
+                )}
+              </div>
             </div>
             <div className="border-b mb-6">
               <h3 className="text-xl flex items-center">
