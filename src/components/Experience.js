@@ -19,7 +19,7 @@ const Experience = () => {
               data-aos-delay="400"
             >
               <img src={Img1} alt="" className="rounded-lg" />
-              <div className="absolute bottom-0 p-2 bg-white/20 backdrop-blure rounded-b-lg max-w-[300px] min-h-[100px]">
+              <div className="absolute bottom-0 p-2 bg-white/20 backdrop-blure rounded-b-lg lg:max-w-[300px] lg:min-h-[100px]">
                 <BiGame className="text-4xl mb-4" />
                 <h3 className="mb-2">Premium Quality</h3>
                 <p className="text-sm">
@@ -34,7 +34,7 @@ const Experience = () => {
               data-aos-delay="400"
             >
               <img src={Img2} alt="" className="rounded-lg" />
-              <div className="absolute bottom-0 p-2 bg-white/20 backdrop-blure rounded-b-lg max-w-[300px] min-h-[100px]">
+              <div className="absolute bottom-0 p-2 bg-white/20 backdrop-blure rounded-b-lg lg:max-w-[300px] lg:min-h-[100px]">
                 <RiGamepadLine className="text-4xl mb-4" />
                 <h3 className="mb-2">Premium Quality</h3>
                 <p className="text-sm">

@@ -1,8 +1,8 @@
 import React from "react";
-import Avatar1 from "../assets/img2/avt1.jpeg";
-import Avatar2 from "../assets/img2/avt2.jpeg";
-import Avatar3 from "../assets/img2/avt3.jpeg";
-import Avatar4 from "../assets/img2/avt4.jpeg";
+import Avatar1 from "../assets/img2/avt1.png";
+import Avatar2 from "../assets/img2/avt2.png";
+import Avatar3 from "../assets/img2/avt3.png";
+import Avatar4 from "../assets/img2/avt4.png";
 
 import { BsFillCircleFill } from "react-icons/bs";
 

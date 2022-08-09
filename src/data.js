@@ -1,49 +1,32 @@
-// import slider images
-import Avatar1 from "../src/assets/img/avt1.png";
-import Avatar2 from "../src/assets/img/avt2.png";
-import Avatar3 from "../src/assets/img/avt3.png";
+import Avatar1 from "../src/assets/img2/avt1.png";
+import Avatar2 from "../src/assets/img2/avt2.png";
+import Avatar3 from "../src/assets/img2/avt3.png";
+import TestimonialImg from "../src/assets/img2/TestimonialImage.jpg";
 
-export const slider = [
-  {
-    message:
-      "I know in real-time where the money is spent,and I don’t have to lend out the company’s credit card anymore. What a relief!",
-    image: Avatar1,
-    name: "Laurie Howell",
-    email: "la.howell@gmail.com",
-  },
-  {
-    message:
-      "VISUALS are much better. The improvements in optics and resolution and much more than a modern console generation leap.",
-    image: Avatar2,
-    name: "Christie Ernser",
-    email: "chr.ernser@gmail.com",
-  },
-  {
-    message:
-      "I can actually see the improvement in the graphics, not having the external sensors is a big plus.",
-    image: Avatar3,
-    name: "Frankie Collins",
-    email: "frank.collins@gmail.com",
-  },
-  {
-    message:
-      "I know in real-time where the money is spent,and I don’t have to lend out the company’s credit card anymore. What a relief!",
-    image: Avatar1,
-    name: "Laurie Howell",
-    email: "la.howell@gmail.com",
-  },
-  {
-    message:
-      "VISUALS are much better. The improvements in optics and resolution and much more than a modern console generation leap.",
-    image: Avatar2,
-    name: "Christie Ernser",
-    email: "chr.ernser@gmail.com",
-  },
-  {
-    message:
-      "I can actually see the improvement in the graphics, not having the external sensors is a big plus.",
-    image: Avatar3,
-    name: "Frankie Collins",
-    email: "frank.collins@gmail.com",
-  },
-];
+export const testimonial = {
+  title: "What people are saying about us",
+  image: <TestimonialImg />,
+  persons: [
+    {
+      avatar: <Avatar1 />,
+      name: "Josh Smith",
+      occupation: "Manager of The New York Times",
+      message:
+        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+    },
+    {
+      avatar: <Avatar2 />,
+      name: "Brandi Johns",
+      occupation: "Manager of The New York Times",
+      message:
+        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+    },
+    {
+      avatar: <Avatar3 />,
+      name: "Paula Pfeffer",
+      occupation: "Manager of The New York Times",
+      message:
+        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+    },
+  ],
+};

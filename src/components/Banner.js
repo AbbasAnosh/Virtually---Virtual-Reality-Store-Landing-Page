@@ -56,12 +56,12 @@ const Banner = () => {
             channel="youtube"
             autoplay
             isOpen={isOpen}
-            videoId="NOk_M1Ib5F0"
+            videoId="i4Zt3JZejbg"
             onClose={() => setIsOpen(false)}
           />
           <div className="relative" data-aos="fade-up" data-aos-delay="800">
             <img className="rounded-lg" src={Img} alt="" />
-            <div className="absolute rounded-br-lg bottom-0 right-0 pt-28 pl-56 lg:pl-64 pb-10 pr-10 bg-white/20 backdrop-blure max-w-[500px] min-h-[30px]">
+            <div className="absolute rounded-br-lg bottom-0 right-0 pt-10 pl-40 rounded-bl-lg lg:pl-64 pb-10 pr-10 bg-white/20 backdrop-blure max-w-[500px] min-h-[30px]">
               <div
                 onClick={() => setIsOpen(!isOpen)}
                 className="cursor-pointer"
