@@ -9,24 +9,24 @@ export const testimonial = {
   persons: [
     {
       avatar: <Avatar1 />,
-      name: "Josh Smith",
-      occupation: "Manager of The New York Times",
+      name: "Amelia Charlotte",
+      occupation: "Enterprise Architect",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "“There are as many applications for VR as you can think of, it’s restricted by your imagination.”",
     },
     {
       avatar: <Avatar2 />,
-      name: "Brandi Johns",
-      occupation: "Manager of The New York Times",
+      name: "	Emma Sophia",
+      occupation: "Data Scientist",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "“VR is a way to escape the real world into something more fantastic. It has the potential to be the most social technology of all time .”",
     },
     {
       avatar: <Avatar3 />,
-      name: "Paula Pfeffer",
-      occupation: "Manager of The New York Times",
+      name: "	Michael Ryan",
+      occupation: "Eevops Engineer",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "“Life is not a problem to be solved, but a reality to be experienced .”",
     },
   ],
 };
