@@ -6,7 +6,6 @@ import Experience from "./components/Experience.js";
 import Video from "./components/Video.js";
 import Headsets from "./components/Headsets.js";
 import Testimonial from "./components/Testimonial.js";
-import Explore from "./components/Explore.js";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -25,7 +24,7 @@ const App = () => {
   });
 
   return (
-    <div className="relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:-top-16 before:left-[600px] before:hidden before:lg:flex">
+    <div className="relative">
       <Header setNavMobile={setNavMobile} />
       <Banner />
       <div
@@ -43,7 +42,6 @@ const App = () => {
       <Team />
       <Question />
       <Footer />
-      {/* <Explore /> */}
     </div>
   );
 };

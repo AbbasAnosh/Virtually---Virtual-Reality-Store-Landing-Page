@@ -23,7 +23,7 @@ const TestimonialSlider = () => {
       {testimonial.persons.map((person, index) => {
         const { avatar, name, occupation, message } = person;
         return (
-          <SwiperSlide key={index} data-aos="fade-up" data-aos-delay="400">
+          <SwiperSlide key={index}>
             <div className="flex flex-col min-h-[250px]">
               <div className="flex items-center gap-x-5 mb-9">
                 <img className="w-16 h-16" src={avatar.type} alt="" />
