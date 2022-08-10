@@ -1,34 +1,29 @@
 import React from "react";
-import TestimonialSlider from "../components/TestimonialSlider.js";
+
+import TestimonialSlider from "./TestimonialSlider";
+
+import { testimonial } from "../data";
 
 const Testimonial = () => {
+  const { image, title } = testimonial;
   return (
-    <section className="mb-64 lg:mb-48">
+    <section className="section mb-16">
       <div className="container mx-auto">
-        <div className="bg-purple-400/10 max-h-[400px] p-12 rounded-lg">
-          <div className="text-center">
+        <div className="flex flex-col lg:flex-row lg:gap-x-10 gap-y-2">
+          <div className="lg:max-w-[50%]">
             <h2
-              className="text-3xl font-bold mb-6"
+              className="text-3xl font-bold mb-9"
               data-aos="fade-up"
-              data-aos-offset="300"
-              data-aos-delay="1600"
+              data-aos-delay="400"
             >
-              What our clients say
+              {title}
             </h2>
-            <p
-              className="max-w-2xl mx-auto mb-12 lg:mb-24"
-              data-aos="fade-up"
-              data-aos-offset="300"
-              data-aos-delay="1800"
-            >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
-              repellendus facilis, reprehenderit deserunt iste rem quae.
-              Doloremque earum perferendis quidem!
-            </p>
+
+            <TestimonialSlider />
           </div>
 
-          <div data-aos="fade-up" data-aos-offset="300" data-aos-delay="2000">
-            <TestimonialSlider />
+          <div className="order-1" data-aos="fade-down" data-aos-delay="400">
+            <img className="rounded-lg" src={image.type} alt="" />
           </div>
         </div>
       </div>

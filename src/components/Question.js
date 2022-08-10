@@ -33,13 +33,6 @@ const questions = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ea a possimus porro nisi possimus porro nisi !",
     id: 4,
   },
-  {
-    state: false,
-    question: "Lorem ipsum, dolor sit amet consectetur adipisicing ?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ea a possimus porro nisi possimus porro nisi !",
-    id: 5,
-  },
 ];
 const Question = () => {
   const [questionsList, setQuestionsList] = useState(questions);
